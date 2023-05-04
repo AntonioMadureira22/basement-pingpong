@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+  }
+  
+  svg {
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+  }
+  
+  rect {
+    stroke: white;
+    stroke-width: 2px;
+  }
+  
+  .circle {
+    fill: white;
+  }
+  
+  .score {
+    fill: white;
+    font-size: 24px;
+    text-anchor: middle;
+    transform: translate(200px, 20px);
+  }
+  
+  .paddle {
+    fill: white;
+  }
+  
+  .paddle1 {
+    transform: translate(0, -40px);
+  }
+  
+  .paddle2 {
+    transform: translate(390px, -40px);
+  }
+  
+  .game-over {
+    fill: white;
+    font-size: 48px;
+    text-anchor: middle;
+    transform: translate(200px, 200px);
+  }
+  
+
+  
